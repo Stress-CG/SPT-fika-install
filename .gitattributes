@@ -1,3 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
 # Force LF for files consumed by Linux/Docker, regardless of host autocrlf.
 *.sh        text eol=lf
 Dockerfile  text eol=lf
